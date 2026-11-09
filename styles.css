@@ -96,3 +96,17 @@ article {
 #lyrics {
     flex: 1 1 60%;
 }
+#lyrics section {
+    margin-bottom: 20px;
+}
+
+#lyrics h2 {
+    display: inline-block;
+    margin: 0 0 12px;
+    padding: 4px 8px;
+    font-size: 1rem;
+    text-transform: uppercase;
+    color: #444;
+    border-left: 5px solid var(--yellow);
+    border-bottom: 5px solid var(--yellow);
+}
