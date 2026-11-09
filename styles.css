@@ -1,0 +1,20 @@
+* {
+    box-sizing: border-box;
+}
+
+:root {
+    --yellow: #ffff00;
+    --dark: #4d4d4d;
+    --text: #555;
+}
+
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    color: var(--text);
+    background: #fff;
+}
+
+a {
+    color: inherit;
+}
