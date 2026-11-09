@@ -142,3 +142,14 @@ article {
     font-size: 0.8rem;
     line-height: 1.4;
 }
+#about blockquote {
+    margin: 0 15px 0 35px;
+    font-size: 0.8rem;
+    line-height: 1.4;
+}
+
+#about sup a {
+    color: var(--yellow);
+    font-weight: bold;
+    text-decoration: none;
+}
