@@ -85,3 +85,14 @@ main > header {
     height: 90px;
     border: 3px solid #e60000;
 }
+article {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    gap: 30px;
+    padding: 30px 30px 40px;
+}
+
+#lyrics {
+    flex: 1 1 60%;
+}
