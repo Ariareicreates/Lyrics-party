@@ -30,3 +30,22 @@ body > header h1 {
     font-size: 1.8rem;
     color: #444;
 }
+body > header nav {
+    background: var(--dark);
+}
+
+body > header nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 12px 0;
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+}
+
+body > header nav a {
+    color: #fff;
+    font-size: 0.75rem;
+    font-weight: bold;
+    text-decoration: none;
+}
