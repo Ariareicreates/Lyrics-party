@@ -153,3 +153,15 @@ article {
     font-weight: bold;
     text-decoration: none;
 }
+footer {
+    margin: 0 30px 30px;
+    padding-top: 20px;
+    border-top: 4px solid var(--yellow);
+    font-size: 0.7rem;
+    color: var(--text);
+}
+
+footer a {
+    background: var(--yellow);
+    color: #333;
+}
