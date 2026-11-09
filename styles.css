@@ -110,3 +110,14 @@ article {
     border-left: 5px solid var(--yellow);
     border-bottom: 5px solid var(--yellow);
 }
+/* choruses are indented */
+#lyrics section:nth-child(even) {
+    margin-left: 45px;
+}
+
+#lyrics p {
+    margin: 0;
+    font-size: 0.8rem;
+    line-height: 1.4;
+    color: var(--text);
+}
