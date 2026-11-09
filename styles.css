@@ -59,3 +59,23 @@ main > header {
         linear-gradient(rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75)),
         url("images/talking_heads-speaking_in_tongues.png") center / cover no-repeat;
 }
+#artist_info h1 {
+    margin: 0 0 8px;
+    color: var(--yellow);
+    text-transform: uppercase;
+    font-size: 1.5rem;
+}
+
+#artist_info h2 {
+    margin: 0 0 8px;
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 1.2rem;
+}
+
+#artist_info h3 {
+    margin: 0;
+    color: #ddd;
+    text-transform: uppercase;
+    font-size: 0.8rem;
+}
